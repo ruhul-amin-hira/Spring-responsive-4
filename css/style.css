@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.no-padding{
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.big-button{
+    text-decoration: none;
+    font-size: 30;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    padding: 10px 45px;
+    color: white;
+    background-color: #009bd7;
+    border-radius: 5px;
+    border-bottom: 4px solid #0078a7;
+}
+.big-button:hover{
+    text-decoration: none;
+    color:#009bd7;
+    background-color: white;
+    border:2px solid #009bd7;
+    transition-delay: 0.2s;
+}
+
+.light-header{
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    line-height: 35px;
+}
+.bold-header{
+    font-weight: bold;
+    font-size: 28px;
+}
+/***********************************************************************
+      <!-------------------Header Scction Start -------------------->
+************************************************************************/
+
+.header{
+    background-color: #fdfdfd;
+    padding-bottom: 5px;
+}
+.logo{
+    max-height: 95px;
+    padding: 10px 0 10px 0;
+}
+.contact{
+    color: #fe4505;
+    padding-top:10px;
+    font-weight: 400;
+    padding-right: 30px;
+}
+.login-button {
+    padding: 5px 25px !important;
+    background-color:#2abdb7;
+    color: white;
+    border-radius:2px;
+    margin-top: 5px;
+}
+.header-rightside{
+    float: right;
+}
+.header-right li{
+    display: inline-block;
+}
+
+.icon{
+    clear: both;
+    float: right;
+}
+
+.icon li{
+    display: inline;
+}
+.fa{
+    font-size: 10px !important;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:#ffffff;
+    box-shadow: 1px 3px 3px #bebebe;
+    margin-top: 20px;
+}
+.fa-facebook{
+    padding: 10px 12px;
+}
+
+.fa-linkedin-square{
+    padding: 10px 11px;
+}
+
+/***********************************************************************
+      <!-------------------Banner Scction Start -------------------->
+************************************************************************/
+
+.banner{
+    background: url("../image/banner2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.container-box{
+    float: right;
+    margin: 130px 5px;
+    padding: 6px;
+    border: 3px solid white;
+    max-width: 400px;
+}
+.inner-box{
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+    background-color: rgba(255,255,255,0.7);
+    font-family: serif;
+    color: #2abdb7;
+}
+.inner-box h1{
+    
+    font-size: 60;
+}
+.inner-box h4{
+    font-size: 29;
+    color: #313131;
+    padding-bottom: 25px
+}
+
+/***********************************************************************
+      <!-------------------Round image Scction Start -------------------->
+************************************************************************/
+.round-img-sec p{
+    padding: 25px 0;
+    text-align: center;
+    color: #454646;
+    font-size: 28px;
+    font-weight: 300;
+}
+.spring-bold{
+    font-weight: bold;
+    color: #464e4f;
+}
+.round-image{
+    margin: 0 auto;
+}
+.inner-img-sec{
+    text-align: center;
+}
+.inner-img-sec p{
+    padding: 5px 5px 40px 0;
+    font-size: 15px;
+    
+}
+.inner-round{
+    margin: 0 auto;
+}
+
+/***********************************************************************
+      <!-------------------Tab Scction Start -------------------->
+************************************************************************/
+.tab-sec{
+    text-align: center;
+}
+.tab-header p{
+    padding: 25px 0 0 0;
+    text-align: center;
+    color: #454646;
+    font-size: 28px;
+    font-weight: 300;
+}
+.paragraph p{
+    font-size: 15px;
+    padding-top:0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.tab-sec{
+    background-color: #ebebeb;
+}
+
+/***********************************************************************
+      <!-------------------Reward Scction Start -------------------->
+************************************************************************/
+.reward-sec{
+    text-align: center;
+}
+.reward-header p{
+    padding: 25px 0 40px 0;
+    text-align: center;
+    color: #454646;
+    font-size: 28px;
+    font-weight: 300;
+}
+.iphone{
+    margin: 0 auto;
+}
+ #stay-header p  {
+    padding: 0 !important ;
+}
+.phone-paragraph p{
+    padding:0  5px 40px 5px;
+}
+
+/***********************************************************************
+      <!-------------------Dashborad Scction Start -------------------->
+************************************************************************/
+.dash{
+    background-color: #bae2f2;
+}
+.email-sec{
+   
+}
+.email{
+    max-width: 90%;
+    padding: 30px 0;
+    float: right;
+}
+
+.email-header p{
+    text-align: center;
+    font-size: 40px ;
+    line-height: 50px;
+    font-weight: 300;
+    float: left;
+    padding: 130px 0 20px 0;
+    
+}
+.spring-dash{
+    font-weight: 700;
+    color: #464e4f;
+}
+.pointer-line{
+    clear: both;
+    padding: 5px;
+    max-width: 450px;
+     
+}
+.pointer{
+    float: left;
+    max-width:15%;
+    position: relative;
+    border: none;
+}
+.pointer-line p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #464e4f;
+    padding: 8px 0;
+    border-bottom: 1px dashed #464e4f;
+   
+}
+
+
+/***********************************************************************
+ <!-------------------Triple iphone Scction Strart-------------------->
+************************************************************************/
+.tripple-phone-left{
+    padding: 30px 10px;
+    
+    
+}
+.tripple-phone-left h2{
+    color: #ff4848;
+    font-weight: 300;
+    font-size: 4em;
+   
+}
+.tripple-phone-left p{
+    color: #787d7e;
+    font-size: 20px;
+}
+.spring-blue{
+    color: #46c7d2;
+    font-weight: bold;
+}
+
+.tripple-phone{
+    padding: 20px  0px;
+    max-width: 70%;
+}
+.inner-tripple-left{
+    max-width: 450px;
+    text-align: center;
+    float: right;
+        
+}
+.tripple-phone-sec{
+    padding: 20px 0;
+}
+
+/***********************************************************************
+ <!-------------------Laptop Scction Start-------------------->
+************************************************************************/
+
+.laptop-sec{
+    background-color:#ebebeb;
+    padding: 60px 0;
+}
+.laptop-right-sec{
+    text-align: center;
+}
+.laptop-right-sec h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #464e4f;
+}
+.laptop-right-sec h4{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.laptop-right-sec p{
+    padding: 10px 0;
+}
+.inner-laptop-right{
+    max-width: 400px;
+}
+.spring-red{
+    color: #fb7373;
+}
+
+/***********************************************************************
+ <!-------------------Form Scction Start-------------------->
+************************************************************************/
+.form-header {
+    text-align: center;
+    padding: 10px 0 70px;
+}
+.form-header h3{
+     font-size: 28px;
+    font-weight: 300;
+}
+.form-header h4{
+    font-size: 28px;
+    font-weight: bold;
+    color: #464e4f;
+    padding-bottom: 30px;
+}
+.form label{
+    font-weight: 400;
+    padding: 10px 5px;
+    color: #787d7e;
+}
+.form input{
+    border-radius: 0;
+    padding: 20px;
+    margin: 5px 0;
+    background-color:#ebebeb;
+    border: none;
+    
+}
+
+.form{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.control-label{
+    padding: 15px 7px !important;
+}
+/***********************************************************************
+ <!-------------------Brand-logo Scction Start-------------------->
+************************************************************************/
+.brand-logo-sec{
+    background-color: #46c7d2;
+}
+
+.logo-header{
+    text-align: center;
+}
+.logo-header h3{
+    color: white;
+}
+.brand-logo-sec{
+    padding: 25px 0 60px;
+}
+.brand-logo li{
+    display: inline-block;
+    padding: 10px;
+}
+.logo-brand{
+    max-width: 90%;
+}
+
+/***********************************************************************
+ <!-------------------Video Scction Start-------------------->
+************************************************************************/
+#iframe-padding{
+    padding: 20% !important;
+}
+
+/***********************************************************************
+ <!-------------------Video-gallary Scction Start-------------------->
+************************************************************************/
+.video-gallary-sec{
+    padding: 40px 0 70px;
+}
+
+/***********************************************************************
+ <!-------------------Option Scction Start-------------------->
+************************************************************************/
+.option-business h3{
+    color: :#464e4f;
+    padding-bottom: 40px;
+}
+.option-business{
+    text-align: center;
+}
+.option-sec{
+    background-color: #ebebeb;
+    padding: 20px 0 70px;
+}
+.business-div{
+    background-color:white;
+    padding: 15px;
+    box-shadow: 0 0 8px #d9d9d9;
+    border: 2px solid  #d9d9d9;
+    border-radius: 3px;
+}
+.inner-business-div{
+    padding: 15px;
+    border: 1px solid #dbdbdb;
+}
+.inner-business-div > h4{
+    color: #ff4848;
+    font-size: 28px;
+}
+.inner-business-div > p{
+    padding:5px 0 0;
+    color: #464e4f;
+}
+.inner-business-div hr {
+    padding: 0 ;
+    margin: 0 ;
+}
+.rate-class{
+    padding: 0  20px 50px 20px;
+}
+.rate{
+    margin: 0 auto;
+}
+
+.inner-business-div h5{
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+#last-rate{
+    padding-bottom: 125px;
+}
+#middle-rate{
+    padding-bottom: 110px;
+}
+
+.link-row{
+    text-align: center;
+   
+}
+
+/***********************************************************************
+   <!-------------------Company-logo Scction Strat-------------------->
+************************************************************************/
+
+.company-logo{
+    text-align: center;
+}
+.company-logo-sec{
+    padding: 20px 0 40px;
+}
+.company-logo-sec h3{
+    padding-bottom: 30px;
+}
+.inner-company-logo{
+    display:block;
+}
+.inner-company-logo li{
+    display: inline-block;
+}
+.company-brand{
+    padding: 10px;
+}
+
+/***********************************************************************
+   <!-------------------Arrow Scction Strat-------------------->
+************************************************************************/
+.arrow-sec{
+    padding: 0;
+    background-color: #232323;
+}
+.arrow-header h3{
+    padding: 10px 0 15px;
+    color: white;
+}
+.arrow-header{
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 20px solid white;
+    border-bottom: 20px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+}
+
+/***********************************************************************
+   <!-------------------Arrow Scction Strat-------------------->
+************************************************************************/
+.footer-sec{
+    background-color: #3a3a3a;
+    padding: 20px 0;
+}
+.top-footer{
+    text-align: center;
+}
+.middle-footer li{
+    display: inline-block;
+    color:#d2d2d2;
+    padding: 10px;
+}
+.middle-footer li > a{
+    color:#d2d2d2;
+   
+}
+.middle-footer li > a:hover{
+    text-decoration: none;
+    color:#009bd7;
+    font-size: 15px;
+    transition-delay: 0.2s;
+}
+.footer-icon{
+    padding: 10px !important;
+    border-radius: 2px;
+    background-color: #58585a;
+    box-shadow: none;
+    margin: 10px 0 !important;
+}
+#facebook-icon{
+    padding: 10px 12px !important;
+}
+.social-media li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.top-footer p{
+    color: #d2d2d2;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.social-media li a{
+    color: black;
+}
+
+.social-media li a:hover{
+    color: blue;
+}
+
+
+
+
+/*********************************************Media query Section****************************************************/
+
+@media only screen and (max-width:992px ) and (min-width:767px){
+    .email {
+    max-width: 116%;
+    margin: 100px 0;
+  }
+    .tripple-phone {
+        max-width: 90%;
+   }
+    .tripple-phone-left {
+      padding: 5px 10px;
+  }
+    .laptop{
+        margin: 100px 0 10px;
+  }
+    .laptop-sec{
+        padding: 10px 0;
+   }
+     #middle-rate {
+    padding-bottom: 115px;
+   }
+    #last-rate {
+    padding-bottom: 110px;
+   }
+   
+}
+
+
+@media only screen and (max-width:768px){
+    .email {
+      max-width: 70%;
+      float: none;
+      margin: 0 auto;
+   }
+    .email-header p {
+       float: none;
+       padding: 10px 0 20px 0;
+   }
+    
+    .pointer-line {
+      margin: 0 auto;
+    }
+    .right-mail{
+        padding-bottom: 10px;
+    }
+     .inner-tripple-left {
+        max-width: none;
+        float: none;
+    }
+    .tripple-phone {
+       margin: 0 auto;
+  }
+    .inner-laptop-right {
+        max-width: none;
+   }  
+    .video-gallary{
+        padding: 10px;
+    }
+    #iframe-padding{
+    padding: 30% !important;
+  }
+   
+}
+
+
+@media only screen and (max-width:480px){
+    .container-box{
+        float: none;
+        margin: 30px auto;
+    }
+    .inner-box h1 {
+    font-size: 45px;
+  }
+    h2,h4{
+        font-size: 25px;
+    }
+    .inner-box {
+       padding: 5px 30px 40px 30px;
+    }
+    .big-button{
+        font-size: 17px;
+        padding: 10px 30px;
+    }
+    .round-img-sec P{
+       padding: 15px 5px;
+        font-size: 24px;
+    }
+    .inner-img-sec p {
+      padding: 5px 5px 15px 0;
+      font-size: 18px;
+  }
+    .reward-header p{
+        font-size: 24px;
+        padding: 25px 5px 10px 5px;
+    }
+    .iphone {
+        max-width: 80%;
+   }
+    .inner-img-sec h4{
+        font-size: 18px;
+    }
+    .tab-header p{
+        font-size: 24px;
+    }
+    .paragraph p{
+        padding: 0 5px 5px;
+        font-size: 18px;
+    }
+    .phone-paragraph p {
+        padding: 0 5px 10px 5px;
+        font-size: 18px;
+        font-weight: 300;
+   }
+    .email-header p {
+   
+       font-size: 25px;
+       line-height: 30px;
+       font-weight: 300;
+       padding: 5px;
+   }
+    .email{
+         max-width: 60%;
+    }
+    .pointer-line p{
+        font-size: 16px;
+        padding: 4px 0;
+    }
+    .tripple-phone-left {
+        padding: 5px;
+   }
+    .tripple-phone-left h2 {
+        font-size: 3em;
+   }
+    .tripple-phone-sec {
+         padding: 5px 0;
+   }
+    .tripple-phone-left p {
+       font-size: 18px;
+    }
+    .laptop-right-sec h3 {
+        font-size: 24px;
+    }
+    .laptop-right-sec h4 {
+       font-size: 24px;
+    }
+    
+    .laptop-right-sec p {
+       padding: 10px;
+       font-size: 16px;
+   }
+    
+    .laptop-sec {
+      padding: 20px 0;
+   }
+    .form-header h4 {
+        font-size: 24px;
+        padding-bottom: 10px;
+   }
+    .control-label {
+       padding: 5px 7px !important;
+   }
+    .form{
+        padding-bottom:10px 20px;
+    }
+    .form-header {
+       padding: 10px 0 35px;
+   }
+    .light-header{
+       font-size: 24px;
+       font-weight: 300;
+       padding: 0 5px 10px 5px;
+       line-height: 35px;
+  }
+   .bold-header{
+      font-weight: bold;
+      font-size: 24px;
+  }
+    .brand-logo-sec {
+       padding: 5px 0 25px;
+  }
+    .video-gallary-sec {
+       padding: 10px 0 10px;
+  }
+    .option-business h3 {
+       padding-bottom: 10px;
+    }
+   .rate-class {
+       padding: 0 20px 25px 20px;
+   }
+    #middle-rate {
+       padding-bottom: 5px;
+   }
+    
+    #last-rate {
+      padding-bottom: 5px;
+   }
+    .option-sec {
+      padding: 10px 0 35px;
+   }
+    .company-logo-sec h3 {
+        padding-bottom: 5px;
+  }
+    .company-logo-sec {
+        padding: 10px 0 15px;
+    }
+    .arrow-header h3 {
+      padding: 10px 5px 15px;
+    }
+    .top-footer p {
+      font-size: 12px;
+      padding: 10px;
+   }
+    .middle-footer li {
+      padding: 5px;
+    }
+}
+
+
+@media only screen and (max-width:425px){
+    .spring-logo{
+        width: 100%;
+    }
+     .spring-login{
+        width: 100%;
+    }
+    .logo{
+        max-height: 85px;
+        padding: 10px 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .header-rightside{
+      float: none;
+      margin: 0 auto;
+   }
+    .header-right{
+       width: 100%;
+       margin: 0 auto;
+       text-align: center;
+    }
+   
+   .icon {
+   
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+   }
+    
+
+
+}
+
